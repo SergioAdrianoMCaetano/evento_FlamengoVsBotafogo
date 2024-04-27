@@ -1,0 +1,10 @@
+#EBAC Tech Talks
+
+1. **Design Responsivo:** A página foi projetada para se adaptar a diferentes dispositivos e tamanhos de tela, garantindo uma experiência consistente e amigável para os usuários em smartphones, tablets e computadores.
+2. **Animacões AOS:** Foram incluídas animações utilizando a biblioteca AOS (Animate On Scroll) para adicionar dinamismo e atratividade à página. Essas animações são acionadas quando os elementos entram na área visível durante a rolagem da página.
+3. **Contador Regressivo:** Implementou-se um contador regressivo que calcula o tempo restante até um evento específico, fornecendo aos visitantes uma contagem regressiva visualmente atraente e informativa.
+4. **Integração com Redes Sociais:** Foram incluídos ícones ou links para redes sociais relevantes, permitindo que os visitantes se conectem facilmente com a empresa ou organização por meio de plataformas como Facebook, Instagram, Twitter, entre outras.
+5. **Formulário de Contato:** Um formulário de contato foi disponibilizado para que os visitantes possam enviar mensagens ou solicitações diretamente para a empresa, facilitando a comunicação e interação.
+6. **Seção de Destaques ou Serviços:** Foi incluída uma seção destacada para exibir os principais serviços, produtos ou informações relevantes da empresa, ajudando a direcionar a atenção dos visitantes para aspectos importantes do negócio.
+7. **CTA (Call to Action):** Foram adicionados chamadas de ação estrategicamente posicionadas para incentivar os visitantes a realizar uma ação específica, como entrar em contato, fazer uma compra ou se inscrever em um serviço.
+8. **SEO (Search Engine Optimization):** A página foi otimizada para mecanismos de busca, utilizando técnicas adequadas de SEO para melhorar a visibilidade e o ranking nos resultados de pesquisa.

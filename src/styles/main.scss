@@ -1,0 +1,31 @@
+@use 'hero';
+@use 'components/infos_bar';
+@use 'components/buttons';
+@use 'event';
+@use 'variables';
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto, sans-serif;
+    color: variables.$textColor;
+    list-style: none;
+}
+
+//CONFIGURAÇÃO DA BARRA DE CONTAGEM
+.container{
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto; //para centralizar
+
+    //Responsividade para CELULAR
+    @media(max-width: 640px){
+        max-width: 80%;//80% do total da tela
+    }
+
+    //Responsividade para TABLET
+    @media(max-width: 1024px){
+        max-width: 90%;//90% do total da tela
+    }
+}

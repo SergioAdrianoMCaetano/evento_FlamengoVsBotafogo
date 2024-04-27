@@ -1,0 +1,46 @@
+@use '../variables';
+
+.infos-bar{
+    padding: 16px 24px;
+    background-color: variables.$textColor;
+    display: flex;
+    justify-content: space-between; //Espaço entre os elementos;
+    
+    
+    &__infos{
+        display: flex;
+        gap: 40px;
+
+        &__item{
+            font-size: 14px;
+            color: variables.$secondaryTextColor;
+
+            b{
+                font-size: 18px;
+                display: block;
+                color: variables.$secondaryTextColor;
+            }
+        }
+    }
+
+    //Para quebrar os elementos em blocos no CELULAR
+    @media(max-width: 640px){
+        display: block;
+
+        &__infos{
+            display: block;
+
+            &__item{
+                margin-bottom: 24px;
+            }
+        }
+        
+    }
+
+    //Para quebrar os elementos em linha no TABLET
+    @media(max-width: 1024px){
+        &__infos{
+            gap: 16px
+        }
+    }
+}
